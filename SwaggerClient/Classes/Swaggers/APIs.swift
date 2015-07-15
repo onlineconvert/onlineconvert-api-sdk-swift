@@ -8,7 +8,7 @@ import Foundation
 import PromiseKit
 
 class SwaggerClientAPI {
-    static let basePath = "http://api2.online-convert.com"
+    static let basePath = "http://api2.online-convert.com/"
     static var credential: NSURLCredential?
     static var requestBuilderFactory: RequestBuilderFactory = AlamofireRequestBuilderFactory()
 }

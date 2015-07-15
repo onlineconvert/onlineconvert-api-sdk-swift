@@ -24,10 +24,10 @@ extension SwaggerClientAPI {
   "input" : [ {
     "id" : "43",
     "source" : "http://www.dropbox.com/f/sfasdfhasdjkr434fadf",
-    "created_at" : "2015-07-10T10:17:59.074+0000",
+    "created_at" : "2015-07-15T15:05:56.095+0000",
     "filename" : "image.png",
     "type" : "aeiou",
-    "modified_at" : "2015-07-10T10:17:59.074+0000",
+    "modified_at" : "2015-07-15T15:05:56.095+0000",
     "size" : "12835187"
   } ],
   "conversion" : [ {
@@ -36,17 +36,16 @@ extension SwaggerClientAPI {
     "target" : "mp3",
     "options" : ""
   } ],
-  "test" : true,
   "status" : {
     "code" : "processing",
     "info" : "The file is being processed."
   },
   "token" : "12srxin63mgp23f8mtny2rgtgl1nl39i",
   "callback" : "http://www.mysite.com/callback",
-  "created_at" : "2015-07-10T10:17:59.074+0000",
+  "created_at" : "2015-07-15T15:05:56.095+0000",
   "server" : "api5//www.online-convert.com",
   "type" : "aeiou",
-  "modified_at" : "2015-07-10T10:17:59.074+0000"
+  "modified_at" : "2015-07-15T15:05:56.095+0000"
 } ], contentType=application/json}]
          
          :param: status (query) Filter the status of the job.
@@ -80,10 +79,10 @@ extension SwaggerClientAPI {
   "input" : [ {
     "id" : "43",
     "source" : "http://www.dropbox.com/f/sfasdfhasdjkr434fadf",
-    "created_at" : "2015-07-10T10:17:59.082+0000",
+    "created_at" : "2015-07-15T15:05:56.100+0000",
     "filename" : "image.png",
     "type" : "aeiou",
-    "modified_at" : "2015-07-10T10:17:59.082+0000",
+    "modified_at" : "2015-07-15T15:05:56.100+0000",
     "size" : "12835187"
   } ],
   "conversion" : [ {
@@ -92,17 +91,16 @@ extension SwaggerClientAPI {
     "target" : "mp3",
     "options" : ""
   } ],
-  "test" : true,
   "status" : {
     "code" : "processing",
     "info" : "The file is being processed."
   },
   "token" : "12srxin63mgp23f8mtny2rgtgl1nl39i",
   "callback" : "http://www.mysite.com/callback",
-  "created_at" : "2015-07-10T10:17:59.082+0000",
+  "created_at" : "2015-07-15T15:05:56.100+0000",
   "server" : "api5//www.online-convert.com",
   "type" : "aeiou",
-  "modified_at" : "2015-07-10T10:17:59.082+0000"
+  "modified_at" : "2015-07-15T15:05:56.100+0000"
 }, contentType=application/json}]
          
          :param: body (body) Content of the job.
@@ -131,10 +129,10 @@ extension SwaggerClientAPI {
   "input" : [ {
     "id" : "43",
     "source" : "http://www.dropbox.com/f/sfasdfhasdjkr434fadf",
-    "created_at" : "2015-07-10T10:17:59.090+0000",
+    "created_at" : "2015-07-15T15:05:56.108+0000",
     "filename" : "image.png",
     "type" : "aeiou",
-    "modified_at" : "2015-07-10T10:17:59.090+0000",
+    "modified_at" : "2015-07-15T15:05:56.108+0000",
     "size" : "12835187"
   } ],
   "conversion" : [ {
@@ -143,17 +141,16 @@ extension SwaggerClientAPI {
     "target" : "mp3",
     "options" : ""
   } ],
-  "test" : true,
   "status" : {
     "code" : "processing",
     "info" : "The file is being processed."
   },
   "token" : "12srxin63mgp23f8mtny2rgtgl1nl39i",
   "callback" : "http://www.mysite.com/callback",
-  "created_at" : "2015-07-10T10:17:59.090+0000",
+  "created_at" : "2015-07-15T15:05:56.108+0000",
   "server" : "api5//www.online-convert.com",
   "type" : "aeiou",
-  "modified_at" : "2015-07-10T10:17:59.090+0000"
+  "modified_at" : "2015-07-15T15:05:56.108+0000"
 }, contentType=application/json}]
          
          :param: jobId (path) ID of job that needs to be fetched
@@ -184,10 +181,10 @@ extension SwaggerClientAPI {
   "input" : [ {
     "id" : "43",
     "source" : "http://www.dropbox.com/f/sfasdfhasdjkr434fadf",
-    "created_at" : "2015-07-10T10:17:59.105+0000",
+    "created_at" : "2015-07-15T15:05:56.122+0000",
     "filename" : "image.png",
     "type" : "aeiou",
-    "modified_at" : "2015-07-10T10:17:59.105+0000",
+    "modified_at" : "2015-07-15T15:05:56.122+0000",
     "size" : "12835187"
   } ],
   "conversion" : [ {
@@ -196,17 +193,16 @@ extension SwaggerClientAPI {
     "target" : "mp3",
     "options" : ""
   } ],
-  "test" : true,
   "status" : {
     "code" : "processing",
     "info" : "The file is being processed."
   },
   "token" : "12srxin63mgp23f8mtny2rgtgl1nl39i",
   "callback" : "http://www.mysite.com/callback",
-  "created_at" : "2015-07-10T10:17:59.105+0000",
+  "created_at" : "2015-07-15T15:05:56.122+0000",
   "server" : "api5//www.online-convert.com",
   "type" : "aeiou",
-  "modified_at" : "2015-07-10T10:17:59.105+0000"
+  "modified_at" : "2015-07-15T15:05:56.122+0000"
 }, contentType=application/json}]
          
          :param: jobId (path) ID of job that needs to be fetched
@@ -237,10 +233,10 @@ extension SwaggerClientAPI {
   "input" : [ {
     "id" : "43",
     "source" : "http://www.dropbox.com/f/sfasdfhasdjkr434fadf",
-    "created_at" : "2015-07-10T10:17:59.115+0000",
+    "created_at" : "2015-07-15T15:05:56.134+0000",
     "filename" : "image.png",
     "type" : "aeiou",
-    "modified_at" : "2015-07-10T10:17:59.115+0000",
+    "modified_at" : "2015-07-15T15:05:56.134+0000",
     "size" : "12835187"
   } ],
   "conversion" : [ {
@@ -249,17 +245,16 @@ extension SwaggerClientAPI {
     "target" : "mp3",
     "options" : ""
   } ],
-  "test" : true,
   "status" : {
     "code" : "processing",
     "info" : "The file is being processed."
   },
   "token" : "12srxin63mgp23f8mtny2rgtgl1nl39i",
   "callback" : "http://www.mysite.com/callback",
-  "created_at" : "2015-07-10T10:17:59.115+0000",
+  "created_at" : "2015-07-15T15:05:56.134+0000",
   "server" : "api5//www.online-convert.com",
   "type" : "aeiou",
-  "modified_at" : "2015-07-10T10:17:59.115+0000"
+  "modified_at" : "2015-07-15T15:05:56.134+0000"
 }, contentType=application/json}]
          
          :param: body (body) Content of the job.
@@ -287,8 +282,8 @@ extension SwaggerClientAPI {
          - examples: [{example=[ {
   "status" : 123,
   "hash" : "aeiou",
-  "created_at" : "2015-07-10T10:17:59.229+0000",
-  "modified_at" : "2015-07-10T10:17:59.229+0000",
+  "created_at" : "2015-07-15T15:05:56.229+0000",
+  "modified_at" : "2015-07-15T15:05:56.229+0000",
   "info" : "aeiou"
 } ], contentType=application/json}]
          

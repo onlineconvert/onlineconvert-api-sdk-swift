@@ -25,8 +25,6 @@ class Job: JSONEncodable {
     var status: Status?
     /** Determine if the job must be processed as soon as it is ready. */
     var process: Bool?
-    /** Determine if it is a test job. */
-    var test: Bool?
     /** Type of conversion or conversions to be carried out. */
     var conversion: [Conversion]?
     /** Source or sources of the files to be converted. */
@@ -49,7 +47,6 @@ class Job: JSONEncodable {
         nillableDictionary["type"] = self.type.rawValue
         nillableDictionary["status"] = self.status?.encode()
         nillableDictionary["process"] = self.process
-        nillableDictionary["test"] = self.test
         nillableDictionary["conversion"] = self.conversion?.encode()
         nillableDictionary["input"] = self.input?.encode()
         nillableDictionary["callback"] = self.callback

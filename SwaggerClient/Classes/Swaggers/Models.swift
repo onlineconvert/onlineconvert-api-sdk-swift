@@ -119,7 +119,6 @@ class Decoders {
                 instance.type = (sourceDictionary["type"] as? String).map { Job.Type(rawValue: $0)! }! 
                 instance.status = Decoders.decodeOptional(clazz: Status.self, source: sourceDictionary["status"])
                 instance.process = Decoders.decodeOptional(clazz: Bool.self, source: sourceDictionary["process"])
-                instance.test = Decoders.decodeOptional(clazz: Bool.self, source: sourceDictionary["test"])
                 instance.conversion = Decoders.decodeOptional(clazz: Array.self, source: sourceDictionary["conversion"])
                 instance.input = Decoders.decodeOptional(clazz: Array.self, source: sourceDictionary["input"])
                 instance.callback = Decoders.decodeOptional(clazz: String.self, source: sourceDictionary["callback"])
@@ -190,16 +189,6 @@ class Decoders {
                 var instance = Status()
                 instance.code = Decoders.decode(clazz: String.self, source: sourceDictionary["code"]!)
                 instance.info = Decoders.decode(clazz: String.self, source: sourceDictionary["info"]!)
-                return instance
-            }
-			
-
-			// Decoder for Link
-            Decoders.addDecoder(clazz: Link.self) { (source: AnyObject) -> Link in
-                let sourceDictionary = source as! [NSObject:AnyObject]
-                var instance = Link()
-                instance.id = Decoders.decode(clazz: String.self, source: sourceDictionary["id"]!)
-                instance.uri = Decoders.decodeOptional(clazz: String.self, source: sourceDictionary["uri"])
                 return instance
             }
 			
